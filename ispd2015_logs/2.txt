@@ -1,0 +1,1460 @@
+Log generated at 2024-10-24 12:51:16
+********************************************************************************
+*                                     更新线长优化后                                      *
+********************************************************************************
+
+
+---------------------------------mgc_des_perf_1---------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.384      0.384
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0
+SUM_displacement : 0
+MAX_displacement : 0
+GP HPWL          : 1.12421e+06
+HPWL             : 1.12421e+06
+delta_HPWL       : 0
+Total wirelength: 45974.352057 um
+α=0.151895
+total_switching_power:61.2799(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 220
+cluster num limit: 220
+tasks                          Wtime      Ctime
+All                            0.932      1.214
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 11.1834
+SUM_displacement : 1.25974e+06
+MAX_displacement : 99
+GP HPWL          : 1.12421e+06
+HPWL             : 1.22153e+06
+delta_HPWL       : 8.65646
+Total wirelength: 39549.051623 um
+α=0.120256
+total_switching_power:52.7155(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   1.915]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 3.00724
+SUM_displacement : 338747
+MAX_displacement : 68
+GP HPWL          : 1.12421e+06
+HPWL             : 1.17325e+06
+delta_HPWL       : 4.36189
+Total wirelength: 45236.197661 um
+α=0.14321
+total_switching_power:60.296(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 112644
+multi cells              : 0
+fixed cells              : 0
+total nets               : 112878
+design area              : 1.9758e+11
+total f_area             : 0
+total m_area             : 1.78964e+11
+design util              : 90.578
+num rows                 : 222
+row height               : 2000
+Ingroup FF cells: 0
+FF cells: 8802
+max_utilization: 90.6
+AVG_displacement : 6.10119
+SUM_displacement : 687263
+MAX_displacement : 725
+GP HPWL          : 1.12421e+06
+HPWL             : 1.10654e+06
+avg_Disp_row     : 0.610119
+delta_HPWL       : -1.57137
+open file (for write) ../ispd15_fr_result/mgc_des_perf_1_abcd_to_run_bst_area.xg_B0
+Total wirelength: 45838.775525 um
+α=0.153865
+total_switching_power:61.0992(mW)
+
+---------------------------------mgc_des_perf_a---------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.815      0.815
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.00291804
+SUM_displacement : 316
+MAX_displacement : 12
+GP HPWL          : 2.26624e+06
+HPWL             : 2.26626e+06
+delta_HPWL       : 0.000997246
+Total wirelength: 64610.522733 um
+α=0.105893
+total_switching_power:86.1203(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 193
+cluster num limit: 193
+tasks                          Wtime      Ctime
+All                            1.219      2.134
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 8.84867
+SUM_displacement : 958240
+MAX_displacement : 92
+GP HPWL          : 2.26624e+06
+HPWL             : 2.22704e+06
+delta_HPWL       : -1.72999
+Total wirelength: 53863.777745 um
+α=0.0898348
+total_switching_power:71.7958(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   1.212]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.345769
+SUM_displacement : 37444
+MAX_displacement : 24
+GP HPWL          : 2.26624e+06
+HPWL             : 2.26948e+06
+delta_HPWL       : 0.142964
+Total wirelength: 64300.635889 um
+α=0.105236
+total_switching_power:85.7072(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 108292
+multi cells              : 0
+fixed cells              : 4
+total nets               : 110281
+design area              : 8.1e+11
+total f_area             : 4.08728e+11
+total m_area             : 1.72001e+11
+design util              : 42.8639
+num rows                 : 450
+row height               : 2000
+group num                : 4
+Ingroup FF cells: 759
+FF cells: 8513
+max_utilization: 42.9
+AVG_displacement : 11.3004
+SUM_displacement : 1.22375e+06
+MAX_displacement : 1359
+GP HPWL          : 2.26624e+06
+HPWL             : 2.22363e+06
+avg_Disp_row     : 1.13004
+delta_HPWL       : -1.88018
+open file (for write) ../ispd15_fr_result/mgc_des_perf_a_abcd_to_run_bst_area.xg_B0
+Total wirelength: 65655.383994 um
+α=0.109669
+total_switching_power:87.513(mW)
+
+---------------------------------mgc_des_perf_b---------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.891      0.890
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.00718192
+SUM_displacement : 809
+MAX_displacement : 15
+GP HPWL          : 1.87093e+06
+HPWL             : 1.87099e+06
+delta_HPWL       : 0.00317488
+Total wirelength: 59952.055249 um
+α=0.119016
+total_switching_power:79.911(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 192
+cluster num limit: 192
+tasks                          Wtime      Ctime
+All                            1.207      2.429
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 8.82407
+SUM_displacement : 993978
+MAX_displacement : 135
+GP HPWL          : 1.87093e+06
+HPWL             : 1.82747e+06
+delta_HPWL       : -2.3229
+Total wirelength: 50095.660968 um
+α=0.101818
+total_switching_power:66.7732(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   1.217]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.34688
+SUM_displacement : 39074
+MAX_displacement : 21
+GP HPWL          : 1.87093e+06
+HPWL             : 1.87458e+06
+delta_HPWL       : 0.19505
+Total wirelength: 59681.055201 um
+α=0.118252
+total_switching_power:79.5497(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 112644
+multi cells              : 0
+fixed cells              : 0
+total nets               : 112878
+design area              : 3.6e+11
+total f_area             : 0
+total m_area             : 1.78964e+11
+design util              : 49.7122
+num rows                 : 300
+row height               : 2000
+group num                : 12
+Ingroup FF cells: 1106
+FF cells: 8802
+max_utilization: 49.7
+AVG_displacement : 10.9591
+SUM_displacement : 1.23448e+06
+MAX_displacement : 3133
+GP HPWL          : 1.87093e+06
+HPWL             : 1.81838e+06
+avg_Disp_row     : 1.09591
+delta_HPWL       : -2.80897
+open file (for write) ../ispd15_fr_result/mgc_des_perf_b_abcd_to_run_bst_area.xg_B0
+Total wirelength: 59782.173263 um
+α=0.122113
+total_switching_power:79.6845(mW)
+
+--------------------------------mgc_edit_dist_a---------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.655      0.655
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0
+SUM_displacement : 0
+MAX_displacement : 0
+GP HPWL          : 4.28996e+06
+HPWL             : 4.28996e+06
+delta_HPWL       : 0
+Total wirelength: 53684.959440 um
+α=0.0464809
+total_switching_power:71.5574(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 135
+cluster num limit: 135
+tasks                          Wtime      Ctime
+All                            1.327      2.294
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 7.22793
+SUM_displacement : 920976
+MAX_displacement : 90
+GP HPWL          : 4.28996e+06
+HPWL             : 4.27406e+06
+delta_HPWL       : -0.370577
+Total wirelength: 38039.493119 um
+α=0.0330575
+total_switching_power:50.7034(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   1.418]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.463118
+SUM_displacement : 59010
+MAX_displacement : 23
+GP HPWL          : 4.28996e+06
+HPWL             : 4.29557e+06
+delta_HPWL       : 0.13079
+Total wirelength: 53684.097844 um
+α=0.0464195
+total_switching_power:71.5563(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 127419
+multi cells              : 0
+fixed cells              : 6
+total nets               : 131134
+design area              : 6.4e+11
+total f_area             : 1.9081e+11
+total m_area             : 2.0355e+11
+design util              : 45.3148
+num rows                 : 400
+row height               : 2000
+group num                : 1
+Ingroup FF cells: 91
+FF cells: 5500
+max_utilization: 45.5
+AVG_displacement : 22.6558
+SUM_displacement : 2.88678e+06
+MAX_displacement : 1961
+GP HPWL          : 4.28996e+06
+HPWL             : 4.25807e+06
+avg_Disp_row     : 2.26558
+delta_HPWL       : -0.743352
+open file (for write) ../ispd15_fr_result/mgc_edit_dist_a_abcd_to_run_bst_area.xg_B0
+Total wirelength: 53329.029311 um
+α=0.0465186
+total_switching_power:71.083(mW)
+
+-----------------------------------mgc_fft_1------------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.100      0.100
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0
+SUM_displacement : 0
+MAX_displacement : 0
+GP HPWL          : 430538
+HPWL             : 430538
+delta_HPWL       : 0
+Total wirelength: 13714.767287 um
+α=0.118318
+total_switching_power:18.2806(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 120
+cluster num limit: 120
+tasks                          Wtime      Ctime
+All                            0.250      0.480
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 11.8121
+SUM_displacement : 381307
+MAX_displacement : 65
+GP HPWL          : 430538
+HPWL             : 437018
+delta_HPWL       : 1.50517
+Total wirelength: 10775.799718 um
+α=0.0915852
+total_switching_power:14.3632(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   0.526]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 3.8032
+SUM_displacement : 122771
+MAX_displacement : 50
+GP HPWL          : 430538
+HPWL             : 450192
+delta_HPWL       : 4.56512
+Total wirelength: 13428.409338 um
+α=0.11079
+total_switching_power:17.8989(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 32281
+multi cells              : 0
+fixed cells              : 0
+total nets               : 33307
+design area              : 6.996e+10
+total f_area             : 0
+total m_area             : 5.84496e+10
+design util              : 83.5472
+num rows                 : 132
+row height               : 2000
+Ingroup FF cells: 0
+FF cells: 1984
+max_utilization: 83.5
+AVG_displacement : 5.61451
+SUM_displacement : 181242
+MAX_displacement : 422
+GP HPWL          : 430538
+HPWL             : 416226
+avg_Disp_row     : 0.561426
+delta_HPWL       : -3.32421
+open file (for write) ../ispd15_fr_result/mgc_fft_1_abcd_to_run_bst_area.xg_B0
+Total wirelength: 13745.239985 um
+α=0.122659
+total_switching_power:18.3212(mW)
+
+-----------------------------------mgc_fft_2------------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.111      0.111
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0
+SUM_displacement : 0
+MAX_displacement : 0
+GP HPWL          : 433292
+HPWL             : 433292
+delta_HPWL       : 0
+Total wirelength: 16712.025546 um
+α=0.143259
+total_switching_power:22.2757(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 120
+cluster num limit: 120
+tasks                          Wtime      Ctime
+All                            0.292      0.521
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 14.2035
+SUM_displacement : 458503
+MAX_displacement : 60
+GP HPWL          : 433292
+HPWL             : 386692
+delta_HPWL       : -10.7549
+Total wirelength: 13414.942867 um
+α=0.128854
+total_switching_power:17.881(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   0.361]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 1.99222
+SUM_displacement : 64311
+MAX_displacement : 40
+GP HPWL          : 433292
+HPWL             : 441420
+delta_HPWL       : 1.87569
+Total wirelength: 16234.502005 um
+α=0.136604
+total_switching_power:21.6392(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 32281
+multi cells              : 0
+fixed cells              : 0
+total nets               : 33307
+design area              : 1.16964e+11
+total f_area             : 0
+total m_area             : 5.84496e+10
+design util              : 49.9723
+num rows                 : 171
+row height               : 2000
+Ingroup FF cells: 0
+FF cells: 1984
+max_utilization: 65
+AVG_displacement : 13.0956
+SUM_displacement : 422738
+MAX_displacement : 1529
+GP HPWL          : 433292
+HPWL             : 384133
+avg_Disp_row     : 1.30956
+delta_HPWL       : -11.3454
+open file (for write) ../ispd15_fr_result/mgc_fft_2_abcd_to_run_bst_area.xg_B0
+Total wirelength: 16705.305845 um
+α=0.161528
+total_switching_power:22.2667(mW)
+
+-----------------------------------mgc_fft_a------------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.194      0.194
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0
+SUM_displacement : 0
+MAX_displacement : 0
+GP HPWL          : 639299
+HPWL             : 639299
+delta_HPWL       : 0
+Total wirelength: 24875.181127 um
+α=0.144523
+total_switching_power:33.1565(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 120
+cluster num limit: 120
+tasks                          Wtime      Ctime
+All                            0.442      0.680
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 10.4475
+SUM_displacement : 320016
+MAX_displacement : 75
+GP HPWL          : 639299
+HPWL             : 624750
+delta_HPWL       : -2.2757
+Total wirelength: 20459.350037 um
+α=0.121636
+total_switching_power:27.2706(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   0.378]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.934152
+SUM_displacement : 28614
+MAX_displacement : 33
+GP HPWL          : 639299
+HPWL             : 642860
+delta_HPWL       : 0.557035
+Total wirelength: 24780.675689 um
+α=0.143177
+total_switching_power:33.0305(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 30631
+multi cells              : 0
+fixed cells              : 6
+total nets               : 32088
+design area              : 6.4e+11
+total f_area             : 4.18219e+11
+total m_area             : 5.54816e+10
+design util              : 25.0164
+num rows                 : 400
+row height               : 2000
+Ingroup FF cells: 0
+FF cells: 1907
+max_utilization: 50
+AVG_displacement : 7.69067
+SUM_displacement : 235573
+MAX_displacement : 2188
+GP HPWL          : 639299
+HPWL             : 627222
+avg_Disp_row     : 0.769067
+delta_HPWL       : -1.88908
+open file (for write) ../ispd15_fr_result/mgc_fft_a_abcd_to_run_bst_area.xg_B0
+Total wirelength: 25176.860253 um
+α=0.149092
+total_switching_power:33.5586(mW)
+
+-----------------------------------mgc_fft_b------------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.186      0.186
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0
+SUM_displacement : 0
+MAX_displacement : 0
+GP HPWL          : 852203
+HPWL             : 852203
+delta_HPWL       : 0
+Total wirelength: 21545.360910 um
+α=0.0939044
+total_switching_power:28.7181(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 120
+cluster num limit: 120
+tasks                          Wtime      Ctime
+All                            0.414      0.659
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 9.07747
+SUM_displacement : 278052
+MAX_displacement : 90
+GP HPWL          : 852203
+HPWL             : 851606
+delta_HPWL       : -0.0701103
+Total wirelength: 17690.521927 um
+α=0.0771573
+total_switching_power:23.5799(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   0.356]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 1.16144
+SUM_displacement : 35576
+MAX_displacement : 27
+GP HPWL          : 852203
+HPWL             : 857445
+delta_HPWL       : 0.615071
+Total wirelength: 21687.027539 um
+α=0.093944
+total_switching_power:28.9069(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 30631
+multi cells              : 0
+fixed cells              : 6
+total nets               : 32088
+design area              : 6.4e+11
+total f_area             : 4.18219e+11
+total m_area             : 5.54816e+10
+design util              : 25.0164
+num rows                 : 400
+row height               : 2000
+Ingroup FF cells: 0
+FF cells: 1907
+max_utilization: 60
+AVG_displacement : 6.66893
+SUM_displacement : 204276
+MAX_displacement : 2122
+GP HPWL          : 852203
+HPWL             : 843846
+avg_Disp_row     : 0.666893
+delta_HPWL       : -0.980643
+open file (for write) ../ispd15_fr_result/mgc_fft_b_abcd_to_run_bst_area.xg_B0
+Total wirelength: 21867.106235 um
+α=0.0962506
+total_switching_power:29.147(mW)
+
+-------------------------------mgc_matrix_mult_1--------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.559      0.559
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0
+SUM_displacement : 0
+MAX_displacement : 0
+GP HPWL          : 2.17499e+06
+HPWL             : 2.17499e+06
+delta_HPWL       : 0
+Total wirelength: 22292.359900 um
+α=0.0380692
+total_switching_power:29.7138(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 120
+cluster num limit: 120
+tasks                          Wtime      Ctime
+All                            1.301      1.839
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 8.73782
+SUM_displacement : 1.3572e+06
+MAX_displacement : 68
+GP HPWL          : 2.17499e+06
+HPWL             : 2.18561e+06
+delta_HPWL       : 0.488321
+Total wirelength: 18470.279251 um
+α=0.0313888
+total_switching_power:24.6193(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   1.890]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 1.59
+SUM_displacement : 246966
+MAX_displacement : 27
+GP HPWL          : 2.17499e+06
+HPWL             : 2.22002e+06
+delta_HPWL       : 2.07009
+Total wirelength: 21215.308175 um
+α=0.0354951
+total_switching_power:28.2782(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 155325
+multi cells              : 0
+fixed cells              : 0
+total nets               : 158527
+design area              : 3.025e+11
+total f_area             : 0
+total m_area             : 2.4274e+11
+design util              : 80.2446
+num rows                 : 275
+row height               : 2000
+Ingroup FF cells: 0
+FF cells: 2898
+max_utilization: 80.2
+AVG_displacement : 6.28437
+SUM_displacement : 976120
+MAX_displacement : 716
+GP HPWL          : 2.17499e+06
+HPWL             : 2.12779e+06
+avg_Disp_row     : 0.628437
+delta_HPWL       : -2.17017
+open file (for write) ../ispd15_fr_result/mgc_matrix_mult_1_abcd_to_run_bst_area.xg_B0
+Total wirelength: 22186.369192 um
+α=0.0387286
+total_switching_power:29.5725(mW)
+
+-------------------------------mgc_matrix_mult_2--------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.563      0.563
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0
+SUM_displacement : 0
+MAX_displacement : 0
+GP HPWL          : 2.21518e+06
+HPWL             : 2.21518e+06
+delta_HPWL       : 0
+Total wirelength: 21230.038591 um
+α=0.0355974
+total_switching_power:28.2978(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 120
+cluster num limit: 120
+tasks                          Wtime      Ctime
+All                            1.323      1.632
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 8.81924
+SUM_displacement : 1.36985e+06
+MAX_displacement : 69
+GP HPWL          : 2.21518e+06
+HPWL             : 2.21933e+06
+delta_HPWL       : 0.187363
+Total wirelength: 17898.337619 um
+α=0.0299548
+total_switching_power:23.8569(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   1.951]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 1.62206
+SUM_displacement : 251946
+MAX_displacement : 29
+GP HPWL          : 2.21518e+06
+HPWL             : 2.26173e+06
+delta_HPWL       : 2.10181
+Total wirelength: 20764.773363 um
+α=0.0341005
+total_switching_power:27.6777(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 155325
+multi cells              : 0
+fixed cells              : 0
+total nets               : 158527
+design area              : 3.07138e+11
+total f_area             : 0
+total m_area             : 2.4274e+11
+design util              : 79.033
+num rows                 : 277
+row height               : 2000
+Ingroup FF cells: 0
+FF cells: 2898
+max_utilization: 80
+AVG_displacement : 6.42052
+SUM_displacement : 997268
+MAX_displacement : 848
+GP HPWL          : 2.21518e+06
+HPWL             : 2.16375e+06
+avg_Disp_row     : 0.642052
+delta_HPWL       : -2.32134
+open file (for write) ../ispd15_fr_result/mgc_matrix_mult_2_abcd_to_run_bst_area.xg_B0
+Total wirelength: 21816.764126 um
+α=0.0374505
+total_switching_power:29.0799(mW)
+
+-------------------------------mgc_matrix_mult_a--------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.839      0.839
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0
+SUM_displacement : 0
+MAX_displacement : 0
+GP HPWL          : 3.07545e+06
+HPWL             : 3.07545e+06
+delta_HPWL       : 0
+Total wirelength: 31868.196683 um
+α=0.0384878
+total_switching_power:42.4776(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 120
+cluster num limit: 120
+tasks                          Wtime      Ctime
+All                            1.895      2.207
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 7.73816
+SUM_displacement : 1.15806e+06
+MAX_displacement : 78
+GP HPWL          : 3.07545e+06
+HPWL             : 3.07003e+06
+delta_HPWL       : -0.176425
+Total wirelength: 26607.762791 um
+α=0.0321915
+total_switching_power:35.4659(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   1.909]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.473355
+SUM_displacement : 70840
+MAX_displacement : 26
+GP HPWL          : 3.07545e+06
+HPWL             : 3.08872e+06
+delta_HPWL       : 0.431263
+Total wirelength: 31943.381731 um
+α=0.038413
+total_switching_power:42.5778(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 149655
+multi cells              : 0
+fixed cells              : 5
+total nets               : 154284
+design area              : 2.25e+12
+total f_area             : 1.49377e+12
+total m_area             : 2.3409e+11
+design util              : 30.9548
+num rows                 : 750
+row height               : 2000
+Ingroup FF cells: 0
+FF cells: 2813
+max_utilization: 60
+AVG_displacement : 8.21762
+SUM_displacement : 1.22981e+06
+MAX_displacement : 2842
+GP HPWL          : 3.07545e+06
+HPWL             : 3.03385e+06
+avg_Disp_row     : 0.821762
+delta_HPWL       : -1.35268
+open file (for write) ../ispd15_fr_result/mgc_matrix_mult_a_abcd_to_run_bst_area.xg_B0
+Total wirelength: 32905.065830 um
+α=0.040285
+total_switching_power:43.8596(mW)
+
+-------------------------------mgc_matrix_mult_b--------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            1.272      1.272
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.00613212
+SUM_displacement : 898
+MAX_displacement : 24
+GP HPWL          : 3.21094e+06
+HPWL             : 3.21107e+06
+delta_HPWL       : 0.00412341
+Total wirelength: 35797.618720 um
+α=0.0414076
+total_switching_power:47.7152(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 120
+cluster num limit: 120
+tasks                          Wtime      Ctime
+All                            1.875      2.813
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 8.11636
+SUM_displacement : 1.18858e+06
+MAX_displacement : 100
+GP HPWL          : 3.21094e+06
+HPWL             : 3.19765e+06
+delta_HPWL       : -0.413832
+Total wirelength: 30382.808359 um
+α=0.0352917
+total_switching_power:40.4977(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   1.844]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.474707
+SUM_displacement : 69517
+MAX_displacement : 21
+GP HPWL          : 3.21094e+06
+HPWL             : 3.22329e+06
+delta_HPWL       : 0.384651
+Total wirelength: 35836.400221 um
+α=0.0412953
+total_switching_power:47.7668(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 146442
+multi cells              : 0
+fixed cells              : 7
+total nets               : 151612
+design area              : 2.25e+12
+total f_area             : 1.40517e+12
+total m_area             : 2.29274e+11
+design util              : 27.1384
+num rows                 : 750
+row height               : 2000
+group num                : 3
+Ingroup FF cells: 205
+FF cells: 2740
+max_utilization: 60
+AVG_displacement : 9.02394
+SUM_displacement : 1.32148e+06
+MAX_displacement : 4132
+GP HPWL          : 3.21094e+06
+HPWL             : 3.14993e+06
+avg_Disp_row     : 0.902394
+delta_HPWL       : -1.89993
+open file (for write) ../ispd15_fr_result/mgc_matrix_mult_b_abcd_to_run_bst_area.xg_B0
+Total wirelength: 35831.211813 um
+α=0.0422509
+total_switching_power:47.7599(mW)
+
+-------------------------------mgc_matrix_mult_c--------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            1.266      1.266
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.00282023
+SUM_displacement : 413
+MAX_displacement : 19
+GP HPWL          : 3.1122e+06
+HPWL             : 3.11226e+06
+delta_HPWL       : 0.00187649
+Total wirelength: 36559.921059 um
+α=0.043632
+total_switching_power:48.7312(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 120
+cluster num limit: 120
+tasks                          Wtime      Ctime
+All                            1.896      2.917
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 8.08479
+SUM_displacement : 1.18395e+06
+MAX_displacement : 110
+GP HPWL          : 3.1122e+06
+HPWL             : 3.09923e+06
+delta_HPWL       : -0.416673
+Total wirelength: 31892.152481 um
+α=0.0382212
+total_switching_power:42.5095(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   1.810]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.472098
+SUM_displacement : 69135
+MAX_displacement : 24
+GP HPWL          : 3.1122e+06
+HPWL             : 3.12483e+06
+delta_HPWL       : 0.405767
+Total wirelength: 37837.841877 um
+α=0.0449754
+total_switching_power:50.4346(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 146442
+multi cells              : 0
+fixed cells              : 7
+total nets               : 151612
+design area              : 2.25e+12
+total f_area             : 1.40517e+12
+total m_area             : 2.29274e+11
+design util              : 27.1384
+num rows                 : 750
+row height               : 2000
+group num                : 3
+Ingroup FF cells: 205
+FF cells: 2740
+max_utilization: 60
+AVG_displacement : 8.01416
+SUM_displacement : 1.17361e+06
+MAX_displacement : 4279
+GP HPWL          : 3.1122e+06
+HPWL             : 3.05108e+06
+avg_Disp_row     : 0.801416
+delta_HPWL       : -1.96405
+open file (for write) ../ispd15_fr_result/mgc_matrix_mult_c_abcd_to_run_bst_area.xg_B0
+Total wirelength: 37496.729207 um
+α=0.0456474
+total_switching_power:49.9799(mW)
+
+-------------------------------mgc_pci_bridge32_a-------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.099      0.099
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0
+SUM_displacement : 0
+MAX_displacement : 0
+GP HPWL          : 419595
+HPWL             : 419595
+delta_HPWL       : 0
+Total wirelength: 27216.143124 um
+α=0.240919
+total_switching_power:36.2768(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 120
+cluster num limit: 120
+tasks                          Wtime      Ctime
+All                            0.341      0.568
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 11.9123
+SUM_displacement : 351662
+MAX_displacement : 98
+GP HPWL          : 419595
+HPWL             : 405529
+delta_HPWL       : -3.35218
+Total wirelength: 19699.669451 um
+α=0.180431
+total_switching_power:26.258(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   0.292]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.242742
+SUM_displacement : 7166
+MAX_displacement : 11
+GP HPWL          : 419595
+HPWL             : 420075
+delta_HPWL       : 0.114301
+Total wirelength: 27352.285996 um
+α=0.241848
+total_switching_power:36.4583(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 29521
+multi cells              : 0
+fixed cells              : 4
+total nets               : 29985
+design area              : 1.6e+11
+total f_area             : 3.23248e+10
+total m_area             : 4.902e+10
+design util              : 38.3943
+num rows                 : 200
+row height               : 2000
+group num                : 4
+Ingroup FF cells: 994
+FF cells: 3249
+max_utilization: 38.4
+AVG_displacement : 12.3737
+SUM_displacement : 365283
+MAX_displacement : 1719
+GP HPWL          : 419595
+HPWL             : 392424
+avg_Disp_row     : 1.23737
+delta_HPWL       : -6.47551
+open file (for write) ../ispd15_fr_result/mgc_pci_bridge32_a_abcd_to_run_bst_area.xg_B0
+Total wirelength: 27587.026207 um
+α=0.261111
+total_switching_power:36.7711(mW)
+
+-------------------------------mgc_pci_bridge32_b-------------------------------
+
+
+----------------------------------./opendp_or-----------------------------------
+tasks                          Wtime      Ctime
+All                            0.440      0.440
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.0147649
+SUM_displacement : 427
+MAX_displacement : 11
+GP HPWL          : 715528
+HPWL             : 715537
+delta_HPWL       : 0.00122986
+Total wirelength: 35950.122998 um
+α=0.186614
+total_switching_power:47.9184(mW)
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 120
+cluster num limit: 120
+tasks                          Wtime      Ctime
+All                            0.641      1.845
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 16.5104
+SUM_displacement : 477481
+MAX_displacement : 96
+GP HPWL          : 715528
+HPWL             : 656898
+delta_HPWL       : -8.19394
+Total wirelength: 28141.184173 um
+α=0.159118
+total_switching_power:37.5098(mW)
+
+
+------------------------------------./placer------------------------------------
+[   0.000]    Ripple - placement tool          [0m
+[   0.306]    Ripple terminating...[0m
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 0.203907
+SUM_displacement : 5897
+MAX_displacement : 13
+GP HPWL          : 715528
+HPWL             : 715733
+delta_HPWL       : 0.0285314
+Total wirelength: 35097.290139 um
+α=0.182137
+total_switching_power:46.7817(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 28920
+multi cells              : 0
+fixed cells              : 6
+total nets               : 29417
+design area              : 6.4e+11
+total f_area             : 2.75824e+11
+total m_area             : 4.80672e+10
+design util              : 13.1989
+num rows                 : 400
+row height               : 2000
+group num                : 3
+Ingroup FF cells: 775
+FF cells: 3180
+max_utilization: 14.3
+AVG_displacement : 26.795
+SUM_displacement : 774911
+MAX_displacement : 2980
+GP HPWL          : 715528
+HPWL             : 639096
+avg_Disp_row     : 2.6795
+delta_HPWL       : -10.6819
+open file (for write) ../ispd15_fr_result/mgc_pci_bridge32_b_abcd_to_run_bst_area.xg_B0
+Total wirelength: 36046.607807 um
+α=0.209495
+total_switching_power:48.047(mW)
+
+-------------------------------mgc_superblue11_a--------------------------------
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 2219
+cluster num limit: 2219
+tasks                          Wtime      Ctime
+All                           25.935     27.124
+placed_check ==>> FAIL (775547)
+overlap_check ==>> FAIL 
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 8.79308
+SUM_displacement : 8.15184e+06
+MAX_displacement : 3382
+GP HPWL          : 3.60781e+07
+HPWL             : 3.71631e+07
+delta_HPWL       : 3.00737
+Total wirelength: 325147.479337 um
+α=0.0324971
+total_switching_power:433.394(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 927074
+multi cells              : 0
+fixed cells              : 1458
+total nets               : 935613
+design area              : 7.06078e+12
+total f_area             : 4.20281e+12
+total m_area             : 9.96661e+11
+design util              : 34.873
+num rows                 : 3895
+row height               : 900
+group num                : 4
+Ingroup FF cells: 4704
+FF cells: 93489
+max_utilization: 65
+AVG_displacement : 41.608
+SUM_displacement : 3.85737e+07
+MAX_displacement : 14644
+GP HPWL          : 3.60781e+07
+HPWL             : 3.5086e+07
+avg_Disp_row     : 4.62311
+delta_HPWL       : -2.74965
+open file (for write) ../ispd15_fr_result/mgc_superblue11_a_abcd_to_run_bst_area.xg_B0
+Total wirelength: 449474.695443 um
+α=0.0475824
+total_switching_power:599.111(mW)
+
+--------------------------------mgc_superblue12---------------------------------
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 3367
+cluster num limit: 3367
+tasks                          Wtime      Ctime
+All                           51.937     52.495
+overlap_check ==>> FAIL 
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 15.2029
+SUM_displacement : 1.95667e+07
+MAX_displacement : 1694
+GP HPWL          : 2.62105e+07
+HPWL             : 2.61993e+07
+delta_HPWL       : -0.042711
+Total wirelength: 373580.905725 um
+α=0.0529627
+total_switching_power:497.951(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 1287037
+multi cells              : 0
+fixed cells              : 89
+total nets               : 1293413
+design area              : 2.92595e+12
+total f_area             : 6.77475e+11
+total m_area             : 1.00849e+12
+design util              : 44.852
+num rows                 : 2294
+row height               : 900
+Ingroup FF cells: 0
+FF cells: 134705
+max_utilization: 65
+AVG_displacement : 19.045
+SUM_displacement : 2.45117e+07
+MAX_displacement : 18963
+GP HPWL          : 2.62105e+07
+HPWL             : 2.57342e+07
+avg_Disp_row     : 2.11612
+delta_HPWL       : -1.81715
+open file (for write) ../ispd15_fr_result/mgc_superblue12_abcd_to_run_bst_area.xg_B0
+Total wirelength: 512640.057151 um
+α=0.0739906
+total_switching_power:683.305(mW)
+
+--------------------------------mgc_superblue14---------------------------------
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 1914
+cluster num limit: 1914
+tasks                          Wtime      Ctime
+All                           22.468     22.933
+overlap_check ==>> FAIL 
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 14.7717
+SUM_displacement : 9.0489e+06
+MAX_displacement : 448
+GP HPWL          : 2.31913e+07
+HPWL             : 2.3131e+07
+delta_HPWL       : -0.260233
+Total wirelength: 281496.132629 um
+α=0.0452016
+total_switching_power:375.21(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 612583
+multi cells              : 0
+fixed cells              : 340
+total nets               : 619697
+design area              : 2.44169e+12
+total f_area             : 1.16598e+12
+total m_area             : 7.29516e+11
+design util              : 57.1853
+num rows                 : 2094
+row height               : 900
+Ingroup FF cells: 0
+FF cells: 76569
+max_utilization: 56
+AVG_displacement : 35.0747
+SUM_displacement : 2.14862e+07
+MAX_displacement : 5940
+GP HPWL          : 2.31913e+07
+HPWL             : 2.29863e+07
+avg_Disp_row     : 3.89667
+delta_HPWL       : -0.884179
+open file (for write) ../ispd15_fr_result/mgc_superblue14_abcd_to_run_bst_area.xg_B0
+Total wirelength: 365773.361980 um
+α=0.0591042
+total_switching_power:487.545(mW)
+
+-------------------------------mgc_superblue16_a--------------------------------
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 2557
+cluster num limit: 2557
+tasks                          Wtime      Ctime
+All                           16.889     18.065
+overlap_check ==>> FAIL 
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 15.9901
+SUM_displacement : 1.08872e+07
+MAX_displacement : 249
+GP HPWL          : 2.73155e+07
+HPWL             : 2.71976e+07
+delta_HPWL       : -0.431867
+Total wirelength: 294903.030267 um
+α=0.040274
+total_switching_power:393.08(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 680869
+multi cells              : 0
+fixed cells              : 419
+total nets               : 697303
+design area              : 2.38628e+12
+total f_area             : 1.15691e+12
+total m_area             : 6.20722e+11
+design util              : 50.4908
+num rows                 : 1788
+row height               : 900
+group num                : 2
+Ingroup FF cells: 9243
+FF cells: 111539
+max_utilization: 55
+AVG_displacement : 29.4203
+SUM_displacement : 2.00314e+07
+MAX_displacement : 9551
+GP HPWL          : 2.73155e+07
+HPWL             : 2.68415e+07
+avg_Disp_row     : 3.26892
+delta_HPWL       : -1.73542
+open file (for write) ../ispd15_fr_result/mgc_superblue16_a_abcd_to_run_bst_area.xg_B0
+Total wirelength: 403699.625559 um
+α=0.0558634
+total_switching_power:538.097(mW)
+
+--------------------------------mgc_superblue19---------------------------------
+
+
+------------------------------------./opendp------------------------------------
+init_lg_flag: 1
+cluster num limit: 1511
+cluster num limit: 1511
+tasks                          Wtime      Ctime
+All                           36.676     37.132
+overlap_check ==>> FAIL 
+
+--------------------------------------eval--------------------------------------
+AVG_displacement : 15.059
+SUM_displacement : 7.62561e+06
+MAX_displacement : 1595
+GP HPWL          : 1.58078e+07
+HPWL             : 1.57193e+07
+delta_HPWL       : -0.559656
+Total wirelength: 212143.467309 um
+α=0.050127
+total_switching_power:282.769(mW)
+
+
+----------------------------------./abcdplacer----------------------------------
+total cells              : 506383
+multi cells              : 0
+fixed cells              : 286
+total nets               : 511606
+design area              : 2.10754e+12
+total f_area             : 1.26045e+12
+total m_area             : 4.57397e+11
+design util              : 53.9962
+num rows                 : 2294
+row height               : 900
+Ingroup FF cells: 0
+FF cells: 60476
+max_utilization: 53
+AVG_displacement : 24.6899
+SUM_displacement : 1.25025e+07
+MAX_displacement : 9755
+GP HPWL          : 1.58078e+07
+HPWL             : 1.56118e+07
+avg_Disp_row     : 2.74332
+delta_HPWL       : -1.23953
+open file (for write) ../ispd15_fr_result/mgc_superblue19_abcd_to_run_bst_area.xg_B0
+Total wirelength: 283584.829688 um
+α=0.067469
+total_switching_power:377.994(mW)
